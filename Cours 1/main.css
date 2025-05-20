@@ -1,21 +1,43 @@
 /* style.css */
 body{
-  background: rgb(245,245,245);
+  background: rgb(255,255,255);
   color: green;
-  font-size: 25px;
-  font-family: Helvetica;
+  font-size: 125px;
+  font-family: Fascinate Inline;
+  display: block; /* Ensure block-level behavior */
+  margin-left: auto;
+  margin-right: auto;
 }
-h1{
-  font-family: fantasy;
+h1,h2,h3{
+  font-family: LEQUIPE Regular;
   color: red;
-  font-weight: lighter;
-  font-size: 40px;
+  font-weight: normal;
+  font-size: 150px;
+  text-align: center;
 }
 h2 {
-  font-family: cursive;
+  font-family: Fascinate Inline;
   color: black;
   font-weight: lighter;
+  font-size: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h3 {
+  font-family: Nabla;
+  color: greenyellow;
+  font-weight: lighter;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+p {
+  font-family: Permanent Marker;
+  color : black;
+  font-weight: normal;
   font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 a {
   color: yellow;
@@ -23,4 +45,14 @@ a {
 a:hover {
   text-decoration: none;
   color: purple;
+}
+
+img {
+  display: block; /* Ensure block-level behavior */
+  margin-left: auto;
+  margin-right: auto;
+}
+.Image{ 
+  width: 1000px;
+  style: align-content: center;
 }
